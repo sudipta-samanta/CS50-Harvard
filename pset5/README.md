@@ -1,29 +1,17 @@
-# Questions
+#Pset 5 : speller
 
-## What is pneumonoultramicroscopicsilicovolcanoconiosis?
+##Project
+The challenge ahead of you is to implement the fastest spell checker you can!
+By "fastest," though, we’re talking actual, real-world, noticeable time—none of that
+asymptotic stuff this time.
 
-**pneumonoultramicroscopicsilicovolcanoconiosis** is the maximum length word, word length is 45.
+##TODO##
 
-## According to its man page, what does `getrusage` do?
+In dictionary.c we have to implement 4 functions -
+1. *load* : Load the dictionary from the txt file, using hashfunction.
+2. *check* : We have to check whether the supplied word is in the dictionary or not.
+3. *size* : It returns the number of words in the dictionary if loaded else 0.
+4. *unload* : It unloads the dictionary and return true if successful else return false.
 
-Return resource usage statistics for the calling process, which is the sum of resources used by all threads in the process.
-
-## Per that same man page, how many members are in a variable of type `struct rusage`?
-
-16 members.
-
-## Why do you think we pass `before` and `after` by reference (instead of by value) to `calculate`, even though we're not changing their contents?
-
-TODO
-
-## Explain as precisely as possible, in a paragraph or more, how `main` goes about reading words from a file. In other words, convince us that you indeed understand how that function's `for` loop works.
-
-TODO
-
-## Why do you think we used `fgetc` to read each word's characters one at a time rather than use `fscanf` with a format string like `"%s"` to read whole words at a time? Put another way, what problems might arise by relying on `fscanf` alone?
-
-TODO
-
-## Why do you think we declared the parameters for `check` and `load` as `const` (which means "constant")?
-
-TODO
+We can implement the dictionary by linked list and hashtable. For every word, it will be hashed 
+to get the index of the hashtable. Hashtable will be a collection of linkedlist.
