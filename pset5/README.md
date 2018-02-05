@@ -15,3 +15,7 @@ In dictionary.c we have to implement 4 functions -
 
 We can implement the dictionary by linked list and hashtable. For every word, it will be hashed 
 to get the index of the hashtable. Hashtable will be a collection of linkedlist.
+
+# RESULT
+
+![screenshot](https://github.com/sudipta-samanta/CS50-Harvard/blob/master/pset5/Capture.PNG)
