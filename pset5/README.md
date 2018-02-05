@@ -1,11 +1,11 @@
-#Pset 5 : speller
+# Pset 5 : speller
 
-##Project
+## Project
 The challenge ahead of you is to implement the fastest spell checker you can!
 By "fastest," though, we’re talking actual, real-world, noticeable time—none of that
 asymptotic stuff this time.
 
-##TODO
+## TODO
 
 In dictionary.c we have to implement 4 functions -
 1. *load* : Load the dictionary from the txt file, using hashfunction.
