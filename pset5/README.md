@@ -17,5 +17,5 @@ We can implement the dictionary by linked list and hashtable. For every word, it
 to get the index of the hashtable. Hashtable will be a collection of linkedlist.
 
 # RESULT
-
+left = my solution, right = staff's solution
 ![screenshot](https://github.com/sudipta-samanta/CS50-Harvard/blob/master/pset5/Capture.PNG)
